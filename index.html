@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial="1.0">
+        <title>Styling HTML using CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Why use CSS</h1>
+            <P>We will use CSS to style our Webpage</P>
+        </header>
+        
+        <section>
+            <h3>Why we should learn CSS</h3>
+            <p>CSS is important because:</p>
+            <ol type="i">
+                <li>Design</li>
+                <li>Layout</li>
+                <li>Color</li>
+                <li>Responsiveness</li>
+            </ol>
+
+            <h3>Common CSS properties</h3>
+            <p>This include:</p>
+            <ul>
+                <li>Background-color</li>
+                <li>Font-family</li>
+                <li>Margin</li>
+                <li>Padding</li>
+                <li>Border</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>MEDIA</h2>
+            <P>Image</P>
+            <img src="https://images.pexels.com/photos/7988113/pexels-photo-7988113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="500" height="300" alt="A man doing coding"> <br><br>
+            <h3>Video</h3>
+            <p>Ocean shore</p>
+            <video src="https://www.pexels.com/download/video/1321208/"width="640" height="360" controls autoplay loop type="video/mp4">Your browser does not support the video tag.</video>
+        </section>
+
+        <section>
+            <h2>Tables</h2>
+            <table border="1">
+                <thead>Programming Class Timetable</thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Session</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Morning</td>
+                    <td>10am-12pm</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Afternoon</td>
+                    <td>2pm-4pm</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Evening</td>
+                    <td>6.30pm-8pm</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h3>FORMS</h3>
+            <P>For more Information fell free to contact me:</P>
+            <form>
+                <label for="First Name:">First Name</label><br>
+                <input type="text" id="first_name" name="first_name"><br><br>
+                <label for="Second Name">Second Name</label><br>
+                <input type="text" id="second_name" name="second_name"><br><br>
+                <label for="Email Address">Email Address</label><br>
+                <input type="email" id="email_address" name="email_address"><br><br>
+                <label for="bio">Short bio
+                    <textarea id="bio" name="bio" rows="3" minlength="10" placeholder="Tell us about you.." required></textarea><br>
+                  </label>
+            </form>
+            
+        </section>
+    </body>
+</html>
